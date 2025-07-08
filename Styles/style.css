@@ -29,6 +29,10 @@ a {
     color: #FD6E0A;
 }
 
+.dark-2{
+    color: #474747;
+}
+
 .primary-btn {
     padding: 20px 30px;
     font-size: 20px;
@@ -43,6 +47,14 @@ a {
 .container {
     max-width: 1140px;
     margin: 0 auto;
+}
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    max-width: 1300px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position:top left,  bottom right;
 }
 
 .nav-container {
@@ -66,4 +78,36 @@ a {
 
 .link-container a {
     color: #474747;
+}
+
+
+/* Banner Styles */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.banner-content{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.banner-content h3{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-content h2{
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.banner-content p{
+    font-size: 18px;
+}
+.banner-img img{
+    width: 100%;
+    margin-top: 100px;
 }
