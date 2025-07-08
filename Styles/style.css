@@ -7,6 +7,10 @@
     outline: 0;
     border: 0;
 }
+hr{
+    border: 1px solid #757575;
+    margin-top: 20px;
+}
 
 .open-sans-normal {
     font-family: "Open Sans", sans-serif;
@@ -176,4 +180,47 @@ a {
 .skill img{
     width: 44px;
     
+}
+
+/*  */
+.resume-heading{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+.my-resume-container{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.column-title{
+    margin: 30px 0;
+    font-size: 30px;
+    color: #474747;
+}
+.experience{
+    margin-top: 20px;
+}
+
+.experience-title{
+    font-weight: bold;
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.experience-description{
+    font-size: 16px;
+    line-height: 28px;
+    margin: 20px 0;
+}
+.download-resume-btn{
+    text-align: center;
+    margin: 30px 0;
 }
