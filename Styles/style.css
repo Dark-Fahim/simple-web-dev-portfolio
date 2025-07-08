@@ -224,3 +224,41 @@ a {
     text-align: center;
     margin: 30px 0;
 }
+
+/* footer styles */
+.footer{
+    padding: 100px 0;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.footer-description-title{
+    font-weight: bold;
+    font-size: 35px;
+    margin: 20px 0;
+}
+.footer-description-sub-title{
+    margin-bottom: 20px;
+}
+.footer-description{
+    width: 50%;
+}
+.social a{
+    margin-right: 20px;
+}
+
+.message-form input, .message-form textarea{
+    width: 400px;
+    font-size: 20px;
+    color: #757575;
+    display: block;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.message-form textarea{
+    height: 200px;
+    margin-bottom: 20px;
+}
