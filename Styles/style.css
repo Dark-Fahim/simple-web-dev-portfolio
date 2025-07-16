@@ -262,3 +262,43 @@ a {
     height: 200px;
     margin-bottom: 20px;
 }
+
+
+.hide{
+    display: none;
+}
+
+/* mobile responsive */
+
+@media screen and (max-width: 576px) {
+    .skills-container,
+     .my-resume-container,
+     .about-items,
+     .nav-container,
+     .link-container,
+     .banner,
+      .footer{
+        flex-direction: column;
+    }
+    .banner{
+        margin: 20px;
+        flex-direction: column-reverse;
+    }
+    .banner .primary-btn{
+        margin-bottom: 20px;
+    }
+    .header{
+        background-image: none;
+    }
+
+    .about{
+        padding: 20px;
+    }
+    .footer-description{
+        width: 100%;
+    }
+    .message-form input, .message-form textarea{
+        width: calc(100% - 40px);
+    }
+    
+}
